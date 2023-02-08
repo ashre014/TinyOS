@@ -1,1 +1,2 @@
 # TinyOS
+In every second, Sensor 1 (Network ID = 1) measures the ambient light intensity and then transmits a packet that carries the light intensity reading to Sensor 2 (Network ID = 2). In every two seconds, Sensor 1 measures the ambient temperature and then transmits a packet that carries the temperature reading to Sensor 2. Sensor 2 forwards all data to the computer. Display the readings in the Cooja simulator.
